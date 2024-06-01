@@ -1,0 +1,20 @@
+{
+  "name": "controllerpessoasl-back-end",
+  "version": "1.0.0",
+  "description": "sistema feito para controller de gastos, lucros, compra de produtos e comparação ",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev  ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "João Paulo Resende",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}
